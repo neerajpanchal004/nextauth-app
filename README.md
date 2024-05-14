@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Neeraj-authapp</h1>
 
-## Getting Started
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<p align="center">
+  A modern authentication app built with Next.js, React.js, and MongoDB.
+</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p align="center">
+  <a href="https://nextauth-app-pmpv.vercel.app/">View Demo</a>
+</p>
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features
 
-## Learn More
+- **Secure Authentication:** Custom signup and signin pages with encrypted password storage.
+- **Dashboard:** Personalized dashboard for authenticated users.
+- **Responsive Design:** Fully responsive layout using Tailwind CSS.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologies
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Frontend:** Next.js, React.js, Tailwind CSS
+- **Backend:**  Next.js, MongoDB, Mongoose
+- **Authentication:** NextAuth.js
+- **HTTP Requests:** Axios
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Screenshots
+- Signup page
+  ![Screenshot 2024-05-14 135258](https://github.com/neerajpanchal004/nextauth-app/assets/141296714/45dd4e28-fd55-48da-b4ff-de2b9b4fbedd)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Signin page
+  ![Screenshot 2024-05-14 135242](https://github.com/neerajpanchal004/nextauth-app/assets/141296714/486d7e9e-e41c-4b2c-8130-4b0abdc433bc)
+
+- dashboard
+  ![Screenshot 2024-05-14 135224](https://github.com/neerajpanchal004/nextauth-app/assets/141296714/ac2915e4-369d-43c9-8446-f698aca32a84)
+
+## Installation
+
+1. Clone the repository and navigate into the project directory:
+   ```sh
+   git clone https://github.com/neerajpanchal004/nextauth-app.git
+   cd neeraj-authapp
+2. Install  dependencies:
+    ```sh
+    npm install
+
+3. Set up environment variables:
+   
+  - Rename .env.example to .env
+  - Fill in the required variables
+  
+  ## Usage
+  1. Start the development server:
+    npm run dev
+
+2. Open your browser and visit http://localhost:3000 to access the application.
+
+### Thank You for visiting our page ❤️
