@@ -45,7 +45,7 @@ const page = () => {
    
   }
   const signin_with_google = async ()=>{
-    await signIn('google',{callbackUrl:process.env.NEXTAUTH_URL,redirect:true})
+    await signIn('google',{callbackUrl:'http://localhost:3000/',redirect:true})
   }
 
   const signin_with_github = async ()=>{

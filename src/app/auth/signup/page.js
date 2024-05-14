@@ -41,6 +41,7 @@ const Page = () => {
       };
   return (
     <AppLayout>
+    
         <div className=' rounded-2xl bg-white text-black p-8 '>
             <p className='text-center text-xl mb-2'>Welcome please signup here !</p>
             
