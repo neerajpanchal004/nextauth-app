@@ -59,22 +59,22 @@ const page = () => {
         <form >
            
             <h3>Email</h3>
-            <input type='email' value={loginDetails.email} required={true} name='email' onChange={handleChange} placeholder='Enter Your Email' className='w-80 border-[1px] border-black px-3 py-1 rounded-2xl bg-white' required/>
+            <input type='email' value={loginDetails.email} required={true} name='email' onChange={handleChange} placeholder='Enter Your Email' className=' w-64 sm:w-80 border-[1px] border-black px-3 py-1 rounded-2xl bg-white' required/>
 
             <h3>Password</h3>
-            <input type='password' value={loginDetails.password} required={true} name='password' onChange={handleChange} placeholder='Enter Your Password' className='w-80 border-[1px] border-black px-3 py-1 rounded-2xl bg-white' required/>
+            <input type='password' value={loginDetails.password} required={true} name='password' onChange={handleChange} placeholder='Enter Your Password' className='w-64 sm:w-80 border-[1px] border-black px-3 py-1 rounded-2xl bg-white' required/>
 
             <br />
 
             <p className=' mt-3 '>Create an account? <Link href='/auth/signup'className='text-blue-600'>SignUp</Link></p>
 
-            <button type='submit' className='w-80 hover:bg-red-600 bg-red-500  text-white px-3 py-2 rounded-2xl mt-5'onClick={signin_with_credentials}>Signin with credentials</button>
+            <button type='submit' className='w-64 sm:w-80 hover:bg-red-600 bg-red-500  text-white px-3 py-2 rounded-2xl mt-5'onClick={signin_with_credentials}>Signin with credentials</button>
 
         </form>
         <h1 className='text-center mt-3'>OR</h1>
 
-        <button type='submit' className='w-80 hover:bg-green-700 bg-green-600  text-white px-3 py-2 rounded-2xl mt-5'onClick={signin_with_google}>Signin with google</button>
-        <button type='submit' className='w-80 hover:bg-slate-900 bg-slate-800 text-white px-3 py-2 rounded-2xl mt-5'onClick={signin_with_github}>Signin with github</button>
+        <button type='submit' className='w-64 sm:w-80 hover:bg-green-700 bg-green-600  text-white px-3 py-2 rounded-2xl mt-5'onClick={signin_with_google}>Signin with google</button>
+        <button type='submit' className='w-64 sm:w-80 hover:bg-slate-900 bg-slate-800 text-white px-3 py-2 rounded-2xl mt-5'onClick={signin_with_github}>Signin with github</button>
 
 
     </div>

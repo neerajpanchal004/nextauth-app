@@ -46,19 +46,19 @@ const Page = () => {
             
             <form onSubmit={handleSubmit}>
                 <h3>NAME</h3>
-                <input type='text'value={userDetails.name} name='name' onChange={handleChange} placeholder='Enter Your Name' className='w-80 border-[1px] border-black px-3 py-1 rounded-2xl  bg-white' />
+                <input type='text'value={userDetails.name} name='name' onChange={handleChange} placeholder='Enter Your Name' className='w-64 sm:w-80 border-[1px] border-black px-3 py-1 rounded-2xl  bg-white' />
 
                 <h3>Email</h3>
-                <input type='email' value={userDetails.email} name='email' onChange={handleChange} placeholder='Enter Your Email' className='w-80 border-[1px] border-black px-3 py-1 rounded-2xl bg-white' required/>
+                <input type='email' value={userDetails.email} name='email' onChange={handleChange} placeholder='Enter Your Email' className='w-64 sm:w-80 border-[1px] border-black px-3 py-1 rounded-2xl bg-white' required/>
 
                 <h3>Password</h3>
-                <input type='password' value={userDetails.password} name='password' onChange={handleChange} placeholder='Enter Your Password' className='w-80 border-[1px] border-black px-3 py-1 rounded-2xl bg-white' required/>
+                <input type='password' value={userDetails.password} name='password' onChange={handleChange} placeholder='Enter Your Password' className='w-64 sm:w-80 border-[1px] border-black px-3 py-1 rounded-2xl bg-white' required/>
 
                 <br />
 
                 <p className=' mt-3 '>Existing user? <Link href='/auth/signin'className='text-blue-600'>SignIn</Link></p>
 
-                <button type='submit' className='w-80 hover:bg-blue-500 bg-blue-400 px-3 py-1 rounded-2xl mt-5'>SignUP</button>
+                <button type='submit' className='w-64 sm:w-80 hover:bg-blue-500 bg-blue-400 px-3 py-1 rounded-2xl mt-5'>SignUP</button>
 
             </form>
 
