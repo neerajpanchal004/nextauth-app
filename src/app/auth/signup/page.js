@@ -46,7 +46,7 @@ const Page = () => {
             <p className='text-center text-xl mb-2'>Welcome please signup here !</p>
             
             <form onSubmit={handleSubmit}>
-                <h3>NAME</h3>
+                <h3>Name</h3>
                 <input type='text'value={userDetails.name} name='name' onChange={handleChange} placeholder='Enter Your Name' className='w-64 sm:w-80 border-[1px] border-black px-3 py-1 rounded-2xl  bg-white' />
 
                 <h3>Email</h3>
